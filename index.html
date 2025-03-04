@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html"><img src="wwww-logo.png" alt="Welcher Weg Wann und Wie"></a>
+            <div class="dropdown">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="#">Link a</a></li>
+                  <li><a href="#">Link b</a></li>
+                  <li><a href="#">Link bbb</a></li>
+                </ul>           
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="#">Fachabitur</a></li>
+                    <li><a href="#">Abitur</a></li>
+                    <li><a href="#">Ausbildung</a></li>
+                    <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
+                    <li><a href="#">Bachelor</a></li>
+                    <li><a href="#">Master</a></li>
+                    <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
+                    <li><a href="#">Berufserfahrung mit Abitur</a></li>
+                    <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
+                    <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
+                  </ul>
+                </div>
+            </div>     
+        </div>
+    </header>
+    <main>
+        <h2>Welcher Weg Wann und Wie</h2>
+        <p>Eine Einleitung, wozu ist diese Seite da?</p>
+        <p>Hier kommt eine Mindmap hin! Die kann man anklicken und zu den Seiten gelangen :]</p>
+        <img src="mindmap.png" width="500">
+      </main>
+    <footer>
+        <p><a href="/impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>
